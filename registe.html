@@ -1,0 +1,80 @@
+<!DOCTYPE HTML> 
+<html> 
+<head> 
+<meta charset="utf-8" /> 
+<title>用户注册</title> 
+<link rel="stylesheet" type="text/css" href="css_reset.css"></style>
+<link rel="stylesheet" type="text/css" href="css/registe.css"></style>
+<link rel="stylesheet" type="text/css" href="copyright.css">
+<script src="js/registe.js"></script>
+</head> 
+<body> 
+	<!-- logo -->
+	<div id="logo"><img src="homepagePicture\ac1d6b368d9a8b048b974186c8d467a9.gif" /></div>
+	<!-- 用户注册 -->
+	<div id="registe_box" class="clearfix">
+		<!-- 左侧图片 -->
+		<img id="registe_left" src="homepagePicture\left.jpg" />
+		<!-- 右侧登录信息 -->
+		<div id="registe">
+			<div id="registe_top">
+				<h1>用户注册</h1>
+			</div>
+			<div id="registe_content">
+				<!-- 用户名 -->
+				<p>
+					<span class="registe_text">用户名</span>
+					<input id="tel_number" class="login_admin" type="text" placeholder="请输入手机号码" />
+				</p>
+				<p id="tel_number_mes" class="message"></p>
+				<!-- 密码 -->
+				<p>
+					<span class="registe_text">密码</span>
+					<input id="registe_pswd" class="login_admin" type="password" placeholder="请输入6位以上的数字或者字母" />
+				</p>
+				<p id="registe_pswd_mes" class="message"></p>
+				<!-- 确认密码 -->
+				<p>
+					<span class="registe_text">确认密码</span>
+					<input id="registe_pw" class="login_admin" type="password" placeholder="请再次输入密码" />
+				</p>
+				<p id="registe_pw_mes" class="message"></p>
+				<!-- 邮箱 -->
+				<p>
+					<span class="registe_text">邮箱</span>
+					<input id="registe_email" class="login_admin" type="text" placeholder="请输入邮箱" />
+				</p>
+				<p id="registe_email_mes" class="message"></p>
+				<!-- 验证码 -->
+				<p id="code">
+					<span class="registe_text">验证码</span>
+					<input id="identifying_code" type="text" />
+					<img src="homepagePicture\code.png" />
+					<span><a href="#">看不清,换一张</a></span>
+				</p>
+				<p id="identifying_code_mes" class="message"></p>
+				<!-- 立即注册 -->
+				<p id="registe_btn">
+					<input id="registe_sub" type="submit" value="立即注册" />
+					<input id="choose" type="radio"><span>阅读并同意<a href="#">服务协议</a></span>
+				</p>
+			</div>
+		</div>
+	</div>
+	<!-- 版权信息 -->
+	<div id="foot">
+			<ul class="clearfix">
+				<li><a href="#">首页</a></li>
+				<li><a class="foot_cols" href="#"></a></li>
+				<li><a href="#">招聘英才</a></li>
+				<li><a class="foot_cols" href="#"></a></li>
+				<li><a href="#">广告合作</a></li>
+				<li><a class="foot_cols" href="#"></a></li>
+				<li><a href="#">关于Shop商城</a></li>
+				<li><a class="foot_cols" href="#"></a></li>
+				<li><a href="#">关于我们</a></li>
+			</ul>
+	</div>
+	<p id="foots">Copyright 2004-2013 itcast Inc.,All rights reserved.</p>
+</body> 
+</html> 

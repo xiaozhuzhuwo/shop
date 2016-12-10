@@ -1,0 +1,19 @@
+/*版权信息*/
+#foot{width: 340px;font-size: 12px;margin: 15px auto;}
+#foot ul{width: 340px;overflow: hidden;}
+#foot ul li{float: left;margin: 0 5px;text-align: center;}
+#foot a{
+	display: block;
+	color: gray;
+	height: 16px;
+	line-height: 16px;
+}
+#foot .foot_cols{width: 1px;height: 12px;background-color: gray;margin-top: 2px;}
+#foots{
+	width: 900px;
+	margin:-5px auto;
+	text-align: center;
+	color: #ADADAD;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
