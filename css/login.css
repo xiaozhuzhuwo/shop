@@ -1,0 +1,42 @@
+	#login{
+		border:1px solid #d0d0d0;
+		background-color: #FCFCFC;
+		width: 398px;
+	}
+	#login_move{width: 100%;overflow: hidden;cursor: move;border-bottom: 1px solid #d0d0d0;}
+	#login_move p{
+		float: left;
+		margin-left: 20px;
+		font-size: 18px;
+		font-weight: bolder;
+	}
+	#login_close{
+		float: right;
+		width: 21px;
+		height: 21px;
+		background-image: url('picture/close03.png');
+		background-repeat: no-repeat;
+		background-position: 0 0;
+	}
+	#login_user{padding:0 50px;}
+	#login_user p span{color: gray;}
+	#login_admin,#login_password{
+		width: 230px;
+		height: 30px;
+		line-height: 30px;
+	}
+	#login_btn{text-align: center;}
+	#login_btn a{color: #0080FF;font-weight: bold;}
+	#login_sub{
+		height: 30px;
+		width: 70px;
+		line-height: 30px;
+		text-align: center;
+		background-color: #FF8000;
+		font-size: 15px;
+		font-weight: bold;
+		color: white;
+		border:0;
+	}
+	#login_regist{text-align: center;}
+	#login_regist a{color: #AE0000;font-weight: bold;}
